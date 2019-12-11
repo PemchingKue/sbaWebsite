@@ -1,0 +1,82 @@
+<!--  
+CONTACT.HTML
+This is the contacts page of the website. It provides the ability to contact the photographer
+via a form for business inquiries.
+Author: Pemching Kue 12/10/19
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stadik Motion: Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/cUs.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="margin: 0px;">
+    <!-- Header -->
+    <header>
+        <ul class="ulHeader" style="margin-bottom: 0px;">
+            <li class="liHeader"><a href="../html/index.html">Home</a></li>
+            <li class="liHeader"><a href="../html/photos.html">Photos</a></li>
+            <li class="liHeader"><a href="../html/contact.html">Contact Us</a></li>
+        </ul>
+        <img class="topright" src="../images/stadik.jpg">
+    </header>
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>About Us</h2>
+                <p>Stadik Motion is a group of car enthusiast looking to share the art of the design of automotive
+                    vehicles through photography and videography.</p>
+                <p>We specialize in automotive video and photo shoots for automotive events and private clients in the
+                    metro Detroit area.</p>
+                <p>Feel free to contact us if you have any questions.</p>
+                <img src="../images/about.jpg" alt="about" style="width: 100%;">
+            </div>
+            <div class="column">
+                <!-- CONTACT FORM -->
+                <form method="post" action="stadikmotion@gmail.com">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" pattern="^[a-z ,.'-]+$" title="Enter a First Name"
+                        required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" pattern="^[a-z ,.'-]+$" title="Enter a Last Name"
+                        required>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        title="Must Be Valid Email" required>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" style="height:170px" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            Copyright &copy; Stadik Motion
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>

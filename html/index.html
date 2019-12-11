@@ -1,0 +1,78 @@
+<!--  
+INDEX.HTML
+This is the landing page of the website. It provides an view of the photographers
+work via carousel.
+Author: Pemching Kue 12/10/19
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Stadik Motion</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<ul class="ulHeader" style="margin-bottom: 0px;">
+			<li class="liHeader"><a href="../html/index.html">Home</a></li>
+			<li class="liHeader"><a href="../html/photos.html">Photos</a></li>
+			<li class="liHeader"><a href="../html/contact.html">Contact Us</a></li>
+		</ul>
+		<img class="topright" src="../images/stadik.jpg">
+	</header>
+
+	<!-- Photo Carousel -->
+	<div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="../images/lexusISF.jpg" alt="lexus" style="width: 100%;">
+				</div>
+				<div class="item">
+					<img src="../images/370z.jpg" alt="370z" style="width: 100%;">
+				</div>
+				<div class="item">
+					<img src="../images/rsx.jpg" alt="rsx" style="width: 100%;">
+				</div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+			Copyright &copy; Stadik Motion
+		</div>
+	</footer>
+
+</body>
+
+
+
+</html>

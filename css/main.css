@@ -1,0 +1,54 @@
+/*
+MAIN.CSS
+This is the main style sheet for the website.
+Containing header, footer, navigation styles.
+Author: Pemching Kue 12/10/19
+*/
+/*HEADER CSS*/
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.topright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/*FOOTER CSS*/
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+/*NAV CSS*/
+.ulHeader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liHeader {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
